@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="170dp"
+    android:layout_height="350dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:elevation="20dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image"
+            android:src="@drawable/overlay"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:text="HERITAGE MILK"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="-10dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price"
+                    android:text="Rs.70/L"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/login"/>
+
+            </LinearLayout>
+
+                <Button
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/heart"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/custom_button"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/button"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="ADD TO CART"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/typer_roboto_bold"
+                android:background="@drawable/rounded_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

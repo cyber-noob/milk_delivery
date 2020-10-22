@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">milk_delivery</string>
+    <string name="ph">Hello world!</string>
+    <string name="temperature">For optimal quality and safety, dairy products should be stored at refrigerated temperatures between 34°F and 38°F</string>
+</resources>
